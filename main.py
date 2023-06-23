@@ -8,14 +8,14 @@ import requests
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-API = os.environ["REMOVEBG_API"]
+API = os.environ["REMOVEBG_API" , default="sFvSnp6KmgGi7pWDNp4sfn5P"]
 IMG_PATH = "./DOWNLOADS"
 
 Rexinazor = Client(
     "Remove Background Bot",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"],
+    bot_token = os.environ["BOT_TOKEN" , default="6130457410:AAG8jDlWwyFQv1-u8XYnpDhtXaliPo3YrEY"],
+    api_id = int(os.environ["API_ID" , default="29616312"]),
+    api_hash = os.environ["API_HASH" , default="dd1a05ab4c47a5a037cc067cf4bded27"],
 )
 
 START_TEXT = """
