@@ -14,7 +14,7 @@ IMG_PATH = "./DOWNLOADS"
 Rexinazor = Client(
     "Remove Background Bot",
     bot_token = os.environ.get("BOT_TOKEN" , default="6130457410:AAG8jDlWwyFQv1-u8XYnpDhtXaliPo3YrEY"),
-    api_id = int(os.environ.get("API_ID")),
+    api_id = int(os.environ.get("API_ID" , default="29616312")),
     api_hash = os.environ.get("API_HASH" , default="dd1a05ab4c47a5a037cc067cf4bded27")
 )
 
